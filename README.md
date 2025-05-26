@@ -56,7 +56,9 @@ General purpose clustering of 3d points and geomtetrical data.
 
 ## **DEMOS**
 
-### Run 01: Simple point cloud, k=5, iter = 100 | 1 second
+### RUN 01 
+
+**COMPLEXITY**: Simple point cloud, k=5, iter = 100 | **RUNTIME**: 1 second
 
 _This is a simple dataset with only 26 points. And the clustering is instantaneous._
 
@@ -66,7 +68,9 @@ _This is a simple dataset with only 26 points. And the clustering is instantaneo
     </p>
 <br>
 
-### Run 02: 500 points, k=20, iter = 5 | 288 seconds = 4.8 mins
+### RUN 02 
+
+**COMPLEXITY**: 500 points, k=20, iter = 5 | **RUNTIME**: 288 seconds = 4.8 mins
 
 _This is a randomly sampled point cloud of 500 points and we create 20 clusters, 10 runs. The compute time is approx. 111 seconds. We additionally created point groups and respective bounding boxes to visually clarify the solution of the kmeans clustering. Although we also introduced the randomised coloring, it's easier to mine the results with respective bounding boxes._
 <br>
@@ -78,7 +82,9 @@ _This is a randomly sampled point cloud of 500 points and we create 20 clusters,
     </p>
 <br>
 
-### Run 03: 500 points, k=50, iter = 200 | 3110 seconds = 50 mins
+### RUN 03
+
+**COMPLEXITY**: 500 points, k=50, iter = 200 | **RUNTIME**: 3110 seconds = 50 mins
 
 _I bumped the iterations significantly in this one. In order to see the extents of the "cleanliness" of the kMeans++ solution. The outcome is quite nice. On the flipside, the compute time is quite high, but the algorithm works successfully!_ <br>
 _I could either work to reduce the number of runs to see better compute times, vs quality OR work towards code optimization which is another ball-game!_
