@@ -1,5 +1,6 @@
 # k means ++ for Rhino3D
-
+<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="300"> 
+<br>
 **TOOL:**
 
 A kmeans++ solver for Rhino3D. All math coded from scratch. I wanted to learn the workings of the algorithm, and here they are!
