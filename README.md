@@ -5,8 +5,9 @@ kMeans++ is an unsupervised machine learning algorithm.
 
 ## **INTRODUCTION**
 K-means (KM) algorithm groups N data points into k clusters by minimizing the sum of squared distances between every point and its nearest cluster mean (centroid). This objective function is called sum-of-squared errors (SSE). K-means was originally designed for minimizing SSE of numerical data. [1]
-
-<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="300">  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_213704.jpg" width="300">
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225315_.jpg" width="300"> <br> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225327_.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_224405__.jpg" width="300">
+  </p>
 <br>
 
 ### REFERENCES
@@ -42,24 +43,46 @@ General purpose clustering of 3d points and geomtetrical data.
 - Iterate the above loop and optimize by the SSD error metric
 
 **CRITIQUE**
-- There is currently no seed initialized in the randomization, and so the results are more accurate. When specifying seeds (for example 42), sometimes the global minimum (SSD error) is never found, and it might need more runs. So for now, it's excluded.
-- The technique relies heavily on initial seeding of the initial centroid, the rest of the k successive means are weighted selections from the initial seed. Successive initializations result in varied SSDs. Later we choose the solution with the least error.
-- I also coded the traditional k-means. Where the initialization is by random choices (initial randomised cluster), and then clustering data by forming SD based associative collections. The k-means++ seems to be a more simpler and straightforward solution to code where we employ a simple weights heuristic to compute the centroid clusters.
+- **K-MEANS**: I initially coded the traditional k-means. Where the initialization is by random choices (initial randomised cluster), and then clustering data by forming SD based associative collections. This is the vanilla version.
+- **K-MEANS++**: This is the version with a heuristic applied for optimization. The k-means++ seems to be a more simpler and straightforward solution to code where we employ a simple weights heuristic to compute the centroid clusters.
+- **INITIAL SEEDS**: Seeds can help in getting consistent results over successive runs of the same code. Great for degugging, etc. However I noticed issues with solutions. There is currently no seed initialized in the randomization, and so the results are more accurate. When specifying seeds (for example 42), sometimes the global minimum (SSD error) is never found, and it might need more runs. So for now, it's excluded.
+- **K-MEANS++ & INITIAL SEED**: The technique relies heavily on initial seeding of the initial centroid, the rest of the k successive means are weighted selections from the initial seed. Successive initializations result in varied SSDs. Later we choose the solution with the least error.
 
 ## **DEMOS**
 
-### **A demo on a simple point cloud** <br>
+### Run 01 | Simple point cloud, k=5, iter = 100 | 1 second
 
 _This is a simple dataset with only 26 points. And the clustering is instantaneous._
 
 <br>
+<p align="center" width="100%">
   <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo1_250526.gif" width="500"> 
+    </p>
 <br>
 
-### **A demo on a point clouds of 500 points!** <br> 
+### Run 02 | 500 points, k=20, iter = 5 | 288 seconds = 4.8 mins
 
-_This is a randomly sampled point cloud of 500 points and we create 25 clusters. The compute time is approx. 111 seconds. We additionally created point groups and respective bounding boxes to visually clarify the solution of the kmeans clustering. Although we also introduced the randomised coloring, it's easier to mine the results with respective bounding boxes._
-
+_This is a randomly sampled point cloud of 500 points and we create 20 clusters, 10 runs. The compute time is approx. 111 seconds. We additionally created point groups and respective bounding boxes to visually clarify the solution of the kmeans clustering. Although we also introduced the randomised coloring, it's easier to mine the results with respective bounding boxes._
+<br>
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225341_black.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="300">  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_213704.jpg" width="300">
+<br>
 <br>
   <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo2_250526.gif" width="500">
+    </p>
 <br>
+
+### Run 03 | 500 points, k=50, iter = 200 | 3110 seconds = 50 mins
+
+_The compute time is quite high, but the algorithm works successfully!_
+
+<br>
+<p align="center" width="100%">
+  <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo3_250526.gif" width="500">
+  
+<br>
+  <img src="https://github.com/gasingh/k-means/blob/main/Screenshot%202025-05-26%20231348.png" width="800">
+  </p>
+
+<br>
+
