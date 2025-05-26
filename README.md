@@ -9,12 +9,19 @@ K-means (KM) algorithm groups N data points into k clusters by minimizing the su
 <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="300">  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_213704.jpg" width="300">
 <br>
 
-References:
+### REFERENCES
+
+#### PRIMARY
 - [1. How much can k-means be improved by using better initialization and repeats? - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320319301608)
 - [2. k-means clustering - Wikipedia](https://en.wikipedia.org/wiki/K-means_clustering)
 - [3. Stanford: kMeansPP.pdf](https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf)
 - [4. k-means++ - Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B)
 - [5. KMeans — scikit-learn 1.6.1 documentation](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+
+#### SECONDARY
+- [kmeans++ heuristic - Google Search](https://www.google.com/search?q=kmeans%2B%2B+heuristic&sca_esv=fd75f58ac1ff980e&sxsrf=AE3TifMjmMSKIw1X2rmVBPleUle1XsR_1w%3A1748292902734&ei=JtU0aLTOLIWlhbIP-PC6mA4&ved=0ahUKEwi0-bjLgsKNAxWFUkEAHXi4DuMQ4dUDCBA&uact=5&oq=kmeans%2B%2B+heuristic&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmttZWFucysrIGhldXJpc3RpYzIHECMYsAIYJzIIEAAYgAQYogQyCBAAGIAEGKIEMgUQABjvBUjLAlB4WHhwAXgBkAEAmAGNAaABjQGqAQMwLjG4AQPIAQD4AQGYAgKgApQBwgIKEAAYsAMY1gQYR5gDAOIDBRIBMSBAiAYBkAYIkgcDMS4xoAfVBLIHAzAuMbgHkgE&sclient=gws-wiz-serp)
+- [Mastering data clustering: Your guide to K-means & K-means++](https://www.aiacceleratorinstitute.com/mastering-data-clustering-your-comprehensive-guide-to-k-means-and-k-means/#:~:text=Like%20K%2Dmeans%2C%20it%20is,can%20lead%20to%20suboptimal%20results.)
+- [K-Means Clustering - an overview | ScienceDirect Topics](https://www.sciencedirect.com/topics/computer-science/k-means-clustering)
 
 ## **TOOL**
 
