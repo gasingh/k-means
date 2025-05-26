@@ -44,7 +44,7 @@ General purpose clustering of 3d points and geomtetrical data.
 **CRITIQUE**
 - There is currently no seed initialized in the randomization, and so the results are more accurate. When specifying seeds (for example 42), sometimes the global minimum (SSD error) is never found, and it might need more runs. So for now, it's excluded.
 - The technique relies heavily on initial seeding of the initial centroid, the rest of the k successive means are weighted selections from the initial seed. Successive initializations result in varied SSDs. Later we choose the solution with the least error.
-- I also coded the traditional k-means. Where the initialization is by random choices (initial randomised cluster), and then clustering data by forming SD based associative collections. The k-means seems to be a more simpler and straightforward solution to code where we employ a simple weights heuristic to compute the centroid clusters.
+- I also coded the traditional k-means. Where the initialization is by random choices (initial randomised cluster), and then clustering data by forming SD based associative collections. The k-means++ seems to be a more simpler and straightforward solution to code where we employ a simple weights heuristic to compute the centroid clusters.
 
 ## **DEMOS**
 
