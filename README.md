@@ -9,7 +9,7 @@ K-means (KM) algorithm groups N data points into k clusters by minimizing the su
 <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="300">  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_213704.jpg" width="300">
 <br>
 
-Sources:
+References:
 - [1. How much can k-means be improved by using better initialization and repeats? - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320319301608)
 - [2. k-means clustering - Wikipedia](https://en.wikipedia.org/wiki/K-means_clustering)
 - [3. Stanford: kMeansPP.pdf](https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf)
