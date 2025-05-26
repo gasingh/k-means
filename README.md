@@ -1,15 +1,31 @@
-# k means ++ for Rhino3D
-<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="300"> 
+# kmeans++ for Rhino3D
+kMeans++ is an unsupervised machine learning algorithm.
+
+`machine learning` `unsupervised learning` `AI` `3d` `Rhino3D`
+
+K-means (KM) algorithm groups N data points into k clusters by minimizing the sum of squared distances between every point and its nearest cluster mean (centroid). This objective function is called sum-of-squared errors (SSE). K-means was originally designed for minimizing SSE of numerical data. [1]
+
+<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="350"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="350"> 
 <br>
-**TOOL:**
+
+Sources:
+- [1. How much can k-means be improved by using better initialization and repeats? - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320319301608)
+- [2. k-means clustering - Wikipedia](https://en.wikipedia.org/wiki/K-means_clustering)
+- [3. Stanford: kMeansPP.pdf](https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf)
+- [4. k-means++ - Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B)
+- [5. KMeans — scikit-learn 1.6.1 documentation](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+
+---
+
+**TOOL**
 
 A kmeans++ solver for Rhino3D. All math coded from scratch. I wanted to learn the workings of the algorithm, and here they are!
 
-**PURPOSE:**
+**PURPOSE**
 
 General purpose clustering of 3d points and geomtetrical data.
 
-**PSEUDOCODE kMeans++:**
+**PSEUDOCODE**
 
 - Initialize by random choice
 - Run a sequential centroid collection by computing weights
