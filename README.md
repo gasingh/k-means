@@ -7,7 +7,7 @@ kMeans++ is an unsupervised machine learning algorithm.
 K-means (KM) algorithm groups N data points into k clusters by minimizing the sum of squared distances between every point and its nearest cluster mean (centroid). This objective function is called sum-of-squared errors (SSE). K-means was originally designed for minimizing SSE of numerical data. [1](https://www.sciencedirect.com/science/article/pii/S0031320319301608)
 
 <p align="center" width="100%">
-<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_205909.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225315_.jpg" width="300"> <br> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225327_.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_224405__.jpg" width="300">
+<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225341_black.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225315_.jpg" width="300"> <br> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225327_.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_224405__.jpg" width="300">
 
 <br>
 A series of output images above.<br>  (Top to Bottom, Left to Right): <br>
