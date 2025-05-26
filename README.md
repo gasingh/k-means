@@ -74,7 +74,8 @@ _This is a randomly sampled point cloud of 500 points and we create 20 clusters,
 
 ### Run 03 | 500 points, k=50, iter = 200 | 3110 seconds = 50 mins
 
-_The compute time is quite high, but the algorithm works successfully!_
+_I bumped the iterations significantly in this one. In order to see the extents of the "cleanliness" of the kMeans++ solution. The outcome is quite nice. On the flipside, the compute time is quite high, but the algorithm works successfully!_ <br>
+_I could either work to reduce the number of runs to see better compute times, vs quality OR work towards code optimization which is another ball-game!_
 
 <br>
 <p align="center" width="100%">
