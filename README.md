@@ -19,7 +19,8 @@ K-means (KM) algorithm groups N data points into k clusters by minimizing the su
 <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225341_black.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225315_.jpg" width="300"> <br> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225327_.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_224405__.jpg" width="300">
 
 <br>
-A series of output images above.<br>  (Top to Bottom, Left to Right): <br>
+kMeans++ clustering a randomized point cloud in Rhino3D<br>
+A series of output images above: Top to Bottom, Left to Right. <br>
   TOP ROW: [1] k = 0 (initial), [2] k = 20 <br>
   BTM ROW: [3] k = 50         , [4] k = 50 as voxels
 <br> 
