@@ -7,13 +7,22 @@ kMeans++ is an unsupervised machine learning algorithm.
 K-means (KM) algorithm groups N data points into k clusters by minimizing the sum of squared distances between every point and its nearest cluster mean (centroid). This objective function is called sum-of-squared errors (SSE). K-means was originally designed for minimizing SSE of numerical data. [1](https://www.sciencedirect.com/science/article/pii/S0031320319301608)
 
 <p align="center" width="100%">
+  CLUSTERING MESHES <br>
+  
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003334.jpg" width="300">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003320_.jpg" width="300"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="300"> <br>
+  kMeans++ clustering a Stanford Bunny mesh in Rhino3D <br>
+
+  <br>
+  CLUSTERING POINT CLOUDS <br>
 <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225341_black.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225315_.jpg" width="300"> <br> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225327_.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_224405__.jpg" width="300">
 
 <br>
 A series of output images above.<br>  (Top to Bottom, Left to Right): <br>
   TOP ROW: [1] k = 0 (initial), [2] k = 20 <br>
   BTM ROW: [3] k = 50         , [4] k = 50 as voxels
-<br>
+<br> 
 </p>
 
 ### REFERENCES
@@ -99,8 +108,28 @@ _I could either work to reduce the number of runs to see better compute times, v
   <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo3_250526.gif" width="500">
   
 <br>
-  <img src="https://github.com/gasingh/k-means/blob/main/Screenshot%202025-05-26%20231348.png" width="800">
+  <img src="https://github.com/gasingh/k-means/blob/main/Screenshot%202025-05-26%20231348.png" width="1000">
   </p>
 
 <br>
+
+### RUN 04 
+
+**COMPLEXITY**: 2503 points, k=50, iter = 20 | **RUNTIME**: 219 seconds = 3.5 mins
+
+_Ran the kMeans++ routine on the Stanford Bunny! Clustering seems to be working fine._ <br>
+_Mesh source:_[graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj](https://graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj) <br>
+
+<p align="center" width="100%">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003344_.jpg" width="300"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_001621_.jpg" width="300"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="300"> <br>
+  <br>
+  <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo4_bunny_250526.gif" width="500"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo5_bunny_250526_speedVizOptimized4.gif" width="500"> <br>
+  <br>
+  <img src="https://github.com/gasingh/k-means/blob/main/Screenshot%202025-05-27%20003152.png" width="1000">
+</p>
+<br>
+
 
