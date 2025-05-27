@@ -9,9 +9,9 @@ K-means (KM) algorithm groups N data points into k clusters by minimizing the su
 <p align="center" width="100%">
   CLUSTERING MESHES <br>
   
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003334.jpg" width="300">
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003320_.jpg" width="300"> 
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="300"> <br>
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003334.jpg" width="250">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003320_.jpg" width="250"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="250"> <br>
   kMeans++ clustering a Stanford Bunny mesh in Rhino3D <br>
 
   <br>
@@ -122,9 +122,9 @@ _Ran the kMeans++ routine on the Stanford Bunny! Clustering seems to be working 
 _Mesh source:_[graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj](https://graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj) <br>
 
 <p align="center" width="100%">
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003344_.jpg" width="300"> 
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_001621_.jpg" width="300"> 
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="300"> <br>
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003344_.jpg" width="250"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_001621_.jpg" width="250"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="250"> <br>
   <br>
   <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo4_bunny_250526.gif" width="500"> 
   <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo5_bunny_250526_speedVizOptimized4.gif" width="500"> <br>
