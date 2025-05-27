@@ -4,7 +4,7 @@ kMeans++ is an unsupervised machine learning algorithm.
 `machine learning` `unsupervised learning` `AI` `3d` `Rhino3D`
 
 ## **INTRODUCTION**
-K-means (KM) algorithm groups N data points into k clusters by minimizing the sum of squared distances between every point and its nearest cluster mean (centroid). This objective function is called sum-of-squared errors (SSE). K-means was originally designed for minimizing SSE of numerical data. [source: ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320319301608)
+K-means (KM) algorithm groups N data points into k clusters by minimizing the sum of squared distances between every point and its nearest cluster mean (centroid). This objective function is called sum-of-squared errors (SSE). K-means was originally designed for minimizing SSE of numerical data. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0031320319301608)
 
 <p align="center" width="100%">
   CLUSTERING MESHES <br>
