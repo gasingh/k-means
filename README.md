@@ -90,7 +90,7 @@ _This is a simple dataset with only 26 points. And the clustering is instantaneo
 _This is a randomly sampled point cloud of 500 points and we create 20 clusters, 10 runs. The compute time is approx. 111 seconds. We additionally created point groups and respective bounding boxes to visually clarify the solution of the kmeans clustering. Although we also introduced the randomised coloring, it's easier to mine the results with respective bounding boxes._
 <br>
 <p align="center" width="100%">
-<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225341_black.jpg" width="300"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="300">  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_213704.jpg" width="300">
+<img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_225341_black.jpg" width="250"> <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_210043.jpg" width="250">  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250526_213704.jpg" width="250">
 <br>
 <br>
   <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo2_250526.gif" width="500">
