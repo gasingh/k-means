@@ -140,8 +140,7 @@ MESH CLUSTERING BY kMEANS++!! <br>
 **COMPLEXITY**: 4945 mesh faces, k=50, iter = 50 | **RUNTIME**: 9824 sec = 163.73 mins = 2 hr 43 min 44 sec <br>
 
 _Ran the kMeans++ routine on the Stanford Bunny! However this time it's clustering meshes directly!_ <br>
-_The results look stunning!_<br><br>
-_(Next Step: Optimize the code for speed!!!)_ <br>
+_The results look stunning! (Next Step: Optimize the code for speed!!!)_ <br>
 
 <p align="center" width="100%">
   <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175736.jpg" width="250">
