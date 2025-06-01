@@ -8,12 +8,12 @@ K-means (KM) algorithm groups N data points into k clusters by minimizing the su
 
 <p align="center" width="100%">
   CLUSTERING MESHES <br>
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175717.jpg" width="300"> 
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175724.jpg" width="300">  
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175857.jpg" width="300"><br> 
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003334.jpg" width="300">
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003320_.jpg" width="300"> 
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="300"> <br>
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175717.jpg" width="250"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175724.jpg" width="250">  
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175857.jpg" width="250"><br> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003334.jpg" width="250">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003320_.jpg" width="250"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="250"> <br>
   kMeans++ clustering a Stanford Bunny mesh in Rhino3D <br>
 
   <br>
@@ -144,12 +144,12 @@ _The results look stunning!_<br><br>
 _(Next Step: Optimize the code for speed!!!)_ <br>
 
 <p align="center" width="100%">
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175736.jpg" width="300">
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175717.jpg" width="300"><br> 
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175730.jpg" width="300">
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175724.jpg" width="300"><br>  
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175912.jpg" width="300">
-  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175857.jpg" width="300"><br> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175736.jpg" width="250">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175717.jpg" width="250"><br> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175730.jpg" width="250">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175724.jpg" width="250"><br>  
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175912.jpg" width="250">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250601_175857.jpg" width="250"><br> 
   <br>
   <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demoB_250601_tim1_resize1.gif" width="500"> <br>
   <br>
