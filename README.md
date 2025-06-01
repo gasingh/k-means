@@ -133,4 +133,22 @@ _Mesh source:_[graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj](https://gr
 </p>
 <br>
 
+### RUN 05 
+MESH CLUSTERING BY kMEANS++!!
+**COMPLEXITY**: 2503 points, k=50, iter = 50 | **RUNTIME**: xxx seconds = xxx mins
+
+_Ran the kMeans++ routine on the Stanford Bunny! However this time it's clustering meshes directly!_ <br>
+_The results look stunning!_<br>
+
+<p align="center" width="100%">
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003344_.jpg" width="250"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_001621_.jpg" width="250"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/ViewCapture20250527_003353_.jpg" width="250"> <br>
+  <br>
+  <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo4_bunny_250526.gif" width="500"> 
+  <img src="https://github.com/gasingh/k-means/blob/main/kMeansPlusPlus_demo5_bunny_250526_speedVizOptimized4.gif" width="500"> <br>
+  <br>
+  <img src="https://github.com/gasingh/k-means/blob/main/Screenshot%202025-05-27%20003152.png" width="1000">
+</p>
+<br>
 
