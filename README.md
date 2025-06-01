@@ -134,7 +134,7 @@ _Mesh source:_[graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj](https://gr
 <br>
 
 ### RUN 05 
-MESH CLUSTERING BY kMEANS++!!
+MESH CLUSTERING BY kMEANS++!! <br>
 **COMPLEXITY**: 2503 points, k=50, iter = 50 | **RUNTIME**: xxx seconds = xxx mins
 
 _Ran the kMeans++ routine on the Stanford Bunny! However this time it's clustering meshes directly!_ <br>
