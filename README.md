@@ -137,7 +137,7 @@ _Mesh source:_[graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj](https://gr
 
 ### RUN 05 
 MESH CLUSTERING BY kMEANS++!! <br>
-**COMPLEXITY**: 4945 mesh faces, k=50, iter = 50 | **RUNTIME**: 9824 seconds = 163.7333 mins = 2 hours, 43 minutes, and 44 seconds <br>
+**COMPLEXITY**: 4945 mesh faces, k=50, iter = 50 | **RUNTIME**: 9824 sec = 163.73 mins = 2 hr 43 min 44 sec <br>
 
 _Ran the kMeans++ routine on the Stanford Bunny! However this time it's clustering meshes directly!_ <br>
 _The results look stunning!_<br><br>
